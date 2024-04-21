@@ -15,36 +15,27 @@
 
     <!-- favicon -->
     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
-    <!-- google font -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
-    <!-- fontawesome -->
+    <!-- fontawesome Free Shipping Icons -->
     <link rel="stylesheet" href="assets/css/all.min.css">
+
     <!-- bootstrap -->
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <!-- owl carousel -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- animate Slider 100% Organic css -->
     <link rel="stylesheet" href="assets/css/owl.carousel.css">
-    <!-- magnific popup -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <!-- animate css -->
     <link rel="stylesheet" href="assets/css/animate.css">
-    <!-- mean menu css -->
-    <link rel="stylesheet" href="assets/css/meanmenu.min.css">
     <!-- main style -->
     <link rel="stylesheet" href="assets/css/main.css">
     <!-- responsive -->
     <link rel="stylesheet" href="assets/css/responsive.css">
-    
+    {{-- Footer --}}
     <link rel="stylesheet" href="{{ asset('assets/css/footer.css') }}" />
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/Products/vendor/bootstrap/css/bootstrap.min.css') }}">
-    <!-- Icons Section -->
-    <link rel="stylesheet" href="{{ asset('fonts/font-awesome-4.7.0/css/font-awesome.min.css') }}">
-    <!-- Animation Section -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/Products/vendor/animsition/css/animsition.min.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/Products/vendor/slick/slick.css') }}">
+    {{-- Color and Font of the Webiste --}}
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/Products/css/bootstrap.min.css') }}">
+    {{-- You May Like Sctions CSS --}}
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/Products/css/slick.css') }}">
+    {{-- Our Products Section items name (Check) --}}
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/Products/css/main.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/Products/css/util.css') }}">
-
 
 </head>
 <!--PreLoader-->
@@ -208,7 +199,7 @@
                         <div class="col-md-6">
                             <div class="contact-us">
                                 <div class="contact-icon">
-                                    <i class="fas fa-map-o" aria-hidden="true"></i>
+                                    <i class="fas fa-map-marker" aria-hidden="true"></i>
                                 </div>
                                 <!-- End contact Icon -->
                                 <div class="contact-info">
@@ -223,7 +214,7 @@
                         <div class="col-md-6">
                             <div class="contact-us contact-us-last">
                                 <div class="contact-icon">
-                                    <i class="fas fa-volume-control-phone" aria-hidden="true"></i>
+                                    <i class="fas fa-phone-volume" aria-hidden="true"></i>
                                 </div>
                                 <!-- End contact Icon -->
                                 <div class="contact-info">
@@ -341,36 +332,26 @@
         <!-- End Back to top -->
 </footer>
 
+
+
 <!-- jquery -->
 <script src="assets/js/jquery-1.11.3.min.js"></script>
-<!-- bootstrap -->
+<!-- bootstrap Featured Products Items -->
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 <!-- count down -->
 <script src="assets/js/jquery.countdown.js"></script>
 <!-- isotope -->
 <script src="assets/js/jquery.isotope-3.0.6.min.js"></script>
-<!-- waypoints -->
-<script src="assets/js/waypoints.js"></script>
 <!-- owl carousel -->
 <script src="assets/js/owl.carousel.min.js"></script>
 <!-- magnific popup -->
 <script src="assets/js/jquery.magnific-popup.min.js"></script>
-<!-- mean menu -->
-<script src="assets/js/jquery.meanmenu.min.js"></script>
 <!-- sticker js -->
 <script src="assets/js/sticker.js"></script>
 <!-- main js -->
 <script src="assets/js/main.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-
-<div id="dropDownSelect2"></div>
-            <!-- slider -->
-<script type="text/javascript" src="{{ asset('assets/Products/vendor/jquery/jquery-3.2.1.min.js') }}"></script>
-<script type="text/javascript" src="{{ asset('assets/Products/vendor/animsition/js/animsition.min.js') }}"></script> 
-    
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    {{-- This is for the Scroll to take you on Top of the page --}}
     <script>
     $(document).ready(function () {
         // Show or hide the button based on scroll position
@@ -389,9 +370,6 @@
         });
     });
 </script>
-<script src="{{ asset('assets/Products/js/main.js') }} "></script> 
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"8239d14a7c060daf","version":"2023.10.0","token":"cd0b4b3a733644fc843ef0b185f98241"}' crossorigin="anonymous"></script>
-
 </body>
 
 </html>

@@ -5,19 +5,11 @@
     <html lang="en">
 
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Laravel E-Commerce Project by Sam">
-
         <!-- title -->
         <title>Product</title>
         
-        <!-- main style -->
-        <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
-        <!-- responsive -->
-        <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
-
+        <!-- favicon -->
+        <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
 
     </head>
 

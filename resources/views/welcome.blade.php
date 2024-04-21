@@ -5,49 +5,8 @@
     <html lang="en">
 
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Laravel E-Commerce Project by Sam">
-
         <!-- title -->
         <title>Laravel E-Commerce Project</title>
-
-        <!-- Favicon -->
-        <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
-        <!-- google font -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
-        <!-- fontawesome -->
-        <link rel="stylesheet" href="{{ asset('assets/css/all.min.css') }}">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-oCE8e1v6qAqzYT9py4uKti9bAJ2IYoaBdMuXuXtv3AvHOHMQeC6d6gezg67uC3P1" crossorigin="anonymous">
-        <!-- bootstrap -->
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-        <!-- owl carousel -->
-        <link rel="stylesheet" href="assets/css/owl.carousel.css">
-        <!-- magnific popup -->
-        <link rel="stylesheet" href="assets/css/magnific-popup.css">
-        <!-- animate css -->
-        <link rel="stylesheet" href="assets/css/animate.css">
-        <!-- mean menu css -->
-        <link rel="stylesheet" href="assets/css/meanmenu.min.css">
-        <!-- main style -->
-        <link rel="stylesheet" href="assets/css/main.css">
-        <!-- responsive -->
-        <link rel="stylesheet" href="assets/css/responsive.css">
-        <!-- Products css-->
-        <link rel="stylesheet" href="{{ asset('assets/Products/vendor/animate/animate.css') }}" />
-        <link rel="stylesheet" href="{{ asset('assets/Products/vendor/slick/slick.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/Products/css/main.css') }}" />
-        <link rel="stylesheet" href="{{ asset('assets/Products/css/util.css') }}" />
-
-        <link rel="stylesheet" href="{{ asset('assets/Products/css/slick.css') }}">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/themify-icons/0.1.2/css/themify-icons.css">
-        <link rel="stylesheet" href="{{ asset('assets/Products/css/nice-select.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/Products/css/style.css') }}">
-        <!-- Products css-->
-
     </head>
 
     <body>
